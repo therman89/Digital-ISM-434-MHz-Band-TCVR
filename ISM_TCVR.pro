@@ -1,11 +1,8 @@
-update=08/02/2015 11:51:22
+update=10/02/2015 23:11:19
 version=1
-last_client=kicad
-[cvpcb]
+last_client=pcbnew
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -45,14 +42,20 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=ISM_TCVR-cache
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=ISM_TCVR.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=1.524000000000
+PadDrillOvalY=1.524000000000
+PadSizeH=2.159000000000
+PadSizeV=2.159000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -82,5 +85,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
+LibName17=D:/Dropbox/Elektronika/NYÁK tervek/RokaRX/roka_footprint
+LibName18=D:/Dropbox/Elektronika/!Zsebi/Napelem oldal/oldallemez
+LibName19=D:/Dropbox/Elektronika/Libraries/personal_lib_HT
